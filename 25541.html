@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html>
+   <!--htmlタグで囲まれた部分が「HTMLによる記述である」ことをブラウザに伝える-->
+  <head>
+   <title>ren</title>
+   <!--タイトルや説明文など、Webページの各種設定を記述する-->
+      <meta charset="UTF-8">
+      <!--文字コードはUTF-8を指定しましょう。文字コードの種類はいくつかありますが、現在は一般的にUTF-8が使われます。-->
+      <meta name="decoration" content="テスト作成です">
+      <!--Webページの説明文・検索エンジンの検索結果やSNSでシェアしたときに表示される文章です-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--   ビューポート・PCやスマートフォンで「Webページの画面をどのように表示させるか」という設定のこと。-->
+      <!--   幅（width）：device-widthを指定して、画面サイズに合わせていっぱいに広げる-->
+   　　<!--拡大率（initial-scale）：等倍（1.0）を指定して、拡大縮小を行わない-->
+   　   <link rel="stylesheet" href="style2.css">
+   　 　 <!--CSSファイルを読み込む 以下のようにlinkタグを記述して、style.cssを読み込む設定をしましょう。-->
+   　 　 
+   　 　   <!-- slickの読み込み -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  </head>
+  <body>
+   <!--実際にブラウザに表示される内容（記事など）を記述する-->
+     <!-- ヘッダー -->
+  　<header>
+     　<a href="index.html"><img class="button-more" src="ren.images/top.png" alt="トップページに戻る"></a> 
+        
+　  </header>
+    <main>
+        <article>
+     　
+     　　  　   <!-- カルーセル -->
+						    <section id="carousel-section">
+						         <div class="carousel">
+						           <div>
+						             <img class="carouselImg" src="images/carousel1.png">
+						           </div>
+						           <div>
+						             <img class="carouselImg" src="images/carousel2.png">
+						           </div>
+						           <div>
+						             <img class="carouselImg" src="images/carousel3.png">
+						           </div>
+						         </div>
+						    </section>
+　  
+        </article>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+　  
+　   <!-- slickの読み込み -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+　   <script src="25541.js"></script>
+　   
+
+    
+      </body>
+      </html>
+
